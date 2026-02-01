@@ -1,0 +1,166 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family:Arial  sans-serif;
+}
+.hero{
+height: 100vh;
+background: url("headerbg.png")center/cover;no-repeat
+
+;position: relative
+;display: flex
+;align-items: center
+;justify-content: center
+;text-align: center
+;color: rgb(232, 225, 225);
+
+}
+.overlay{
+   ;position: absolute
+   ;inset:0
+
+}
+.content{
+    ;position: relative
+    ;z-index: 2
+}
+.content h1{
+    ;font-size: 80px
+    ;letter-spacing: 5px
+    ;margen:button
+}
+
+.line{
+    display: block;
+    width: 60px;
+    height: 3;
+}
+
+body{
+    font-family:'Arial', sans-serif;
+    background-color: rgb(213, 215, 219);
+    color: rgb(96, 130, 216);
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container{
+    width: 80%;
+    margin:0 auto;
+    padding: 50px 0;
+    text-align: center;
+    display: flex;
+    gap: 20px;
+}
+
+.main-header h2{
+    color: aliceblue;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.main-header p{
+    max-width: 800px;
+    margin:0 auto 50px auto;
+    font-size: 1.1rem;
+    color: antiquewhite;
+}
+.featurs-grid{
+    display: flex;
+
+}
+.portfolio-section{
+    text-align: center;
+    font-family: Arile, sans-serif;
+    padding: 20px;
+}
+.image-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.image-item img{
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0,1);
+}
+@media (max-width: 768){
+    .image-grid
+    grid-template-columns: repeat(2,1fr);
+}
+.contact-section{
+    background-color: antiquewhite;
+    background: image:
+    linear-gradient(rgba(0,0,0,0,5)),
+    rgba(0,0,0,0,1),
+    url('your-background.jpg');
+    background-size: cover;
+    color:white;
+    padding: 60px 20px;
+    text-align: cente;
+    font-family: sans-serif;
+}
+
+.contact-section h2{
+    font-size:32px;
+    margin-bottom: 10px;
+}
+.contact-section p{
+    color:antiquewhite
+    margin-buttom: 10px1;
+
+}
+.contact-section p{
+    color: aliceblue;
+    margin-bottom: 30px;
+}
+.contact-form{
+    max-width: 600px;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.contact-form input,
+.contact-form textarea{
+    background-color: rgb(210, 197, 180);
+    border: 1px solid #7f8c8d;
+    border-radius: 4px;
+    padding: 12px 15px;
+    color: white;
+    outline: none;
+}
+.contact-form::placeholder,
+.contact-form textarea::placeholder{
+    color: rgb(96, 147, 192);
+}
+
+.form-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.newletter{
+    font-size: 14px;
+    color: #b5bb81;
+    cursor: pointer
+}
+.send-btn{
+    background: transparent;
+    border: 1px solid #7f8c8d;
+    color: rgb(158, 113, 113);
+    padding: 8px 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.send-btn:hover{
+    background: #e1d1d1;
+}
+.
